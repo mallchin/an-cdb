@@ -1,0 +1,375 @@
+/*
+body {
+	font-family: 'Dejavu Sans', Arial, Helvetica, Verdana, Sans-Serif;
+	font-size: 14px;
+	background-color: #d1cfd3;
+	color: #1f1f4f;
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	font-size: 100%;
+	color: #1f1f4f;
+	background-color: white;
+	border-collapse: collapse;
+	box-shadow: 0 0 5px #888;
+	margin: 0 auto;
+}
+
+td {
+	border: 1px solid #dfdfdf;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+.table_header {
+	font-family: 'Dejavu Sans Mono', 'Courier 10 pitch', monospace, Courier;
+	font-size: 12px;
+	color: #7f7f7f;
+}
+
+.td_hidden {
+	border: 1px solid #d1cfd3;
+}
+
+.hidden_table {
+	background-color: transparent;
+	border-collapse: collapse;
+	box-shadow: none;
+	margin: 0 auto;
+}
+
+.legal {
+	font-size: 9px;
+	text-align: center;
+	color: #6f6f6f;
+}
+
+.fixed_width {
+	font-family: 'Dejavu Sans Mono', 'Courier 10 pitch', monospace, Courier;
+	font-size: 12px;
+}
+.fixed_width_left {
+	font-family: 'Dejavu Sans Mono', 'Courier 10 pitch', monospace, Courier;
+	font-size: 12px;
+	text-align: left;
+}
+
+.fixed_width_button {
+	font-family: 'Dejavu Sans Mono', 'Courier 10 pitch', monospace, Courier;
+}
+
+.code {
+	font-size: 12px;
+	color: #1f1f1f;
+	font-family: 'Dejavu Sans Mono', 'Courier 10 pitch', monospace, Courier;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.highlight_detail {
+	color: #13749a;
+	font-family: 'Dejavu Sans Mono', 'Courier 10 pitch', monospace, Courier;
+}
+.highlight_detail_left {
+	color: #13749a;
+	font-family: 'Dejavu Sans Mono', 'Courier 10 pitch', monospace, Courier;
+	text-align: left;
+}
+
+.highlight_detail_bold {
+	color: #13749a;
+	font-family: 'Dejavu Sans Mono', 'Courier 10 pitch', monospace, Courier;
+	font-weight: bold;
+}
+
+.highlight_good {
+	color: #1a9a13;
+}
+
+.highlight_good_bold {
+	color: #1a9a13;
+	font-weight: bold;
+}
+
+.highlight_ready {
+	color: #13749a;
+}
+
+.highlight_ready_bold {
+	color: #13749a;
+	font-weight: bold;
+}
+
+.highlight_note {
+	color: #009999;
+}
+
+.highlight_note_bold {
+	color: #009999;
+	font-weight: bold;
+}
+
+.highlight_warning {
+	color: #936c02;
+	font-style: italic;
+}
+
+.highlight_warning_bold {
+	color: #936c02;
+	font-weight: bold;
+}
+
+.highlight_warning_bold_fixed_width_left {
+	color: #936c02;
+	font-weight: bold;
+	font-family: 'Dejavu Sans Mono', 'Courier 10 pitch', monospace, Courier;
+	font-size: 12px;
+	text-align: left;
+}
+
+.highlight_bad {
+	color: #9a131a;
+	font-style: italic;
+}
+
+.highlight_bad_bold {
+	color: #9a131a;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.highlight_dangerous {
+	color: #a60a0a;
+	font-style: italic;
+}
+
+.highlight_dangerous_bold {
+	color: #a60a0a;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.highlight_unavailable {
+	color: #7f7f7f;
+}
+
+.highlight_offline {
+	color: #e61667;
+	font-weight: bold;
+}
+
+.disabled_button {
+	color: #7f7f7f;
+}
+
+.subtle_text {
+	font-size: 12px;
+	color: #6D6D8D;
+	text-align: left;
+}
+
+.subtle_link {
+	font-family: 'Dejavu Sans Mono', 'Courier 10 pitch', monospace, Courier;
+	font-size: 11px;
+	color: #8D8DAD;
+	text-align: left;
+}
+
+.subtle_text_fixed_width {
+	font-family: 'Dejavu Sans Mono', 'Courier 10 pitch', monospace, Courier;
+	font-size: 12px;
+	color: #6D6D8D;
+	text-align: left;
+}
+
+.subtle_text_wrap {
+	font-size: 12px;
+	color: #6D6D8D;
+	text-align: left;
+	white-space: normal;
+}
+
+.button {
+	font-family: 'Dejavu Sans', Arial, Helvetica, Verdana, Sans-Serif;
+	font-size: 14px;
+	background: transparent;
+	cursor: pointer;
+	color: #7f117f;
+	border: 0px;
+	font-weight: bold;
+}
+
+input.disabled {
+	border: 1px solid #bfbfbf;
+	font-size: 12px;
+	font-family: 'Dejavu Sans Mono', 'Courier 10 pitch', monospace, Courier;
+	color: #1f1f1f;
+	padding: 4px;
+}
+
+input {
+	border: 1px solid #8f8f8f;
+	font-size: 12px;
+	font-family: 'Dejavu Sans Mono', 'Courier 10 pitch', monospace, Courier;
+	color: #1f1f1f;
+	padding: 4px;
+}
+
+select {
+	border: 1px solid #8f8f8f;
+	font-size: 12px;
+	font-family: 'Dejavu Sans Mono', 'Courier 10 pitch', monospace, Courier;
+	color: #1f1f1f;
+	padding: 4px;
+	background-color: #ffffff;
+}
+
+a {
+	color: #7f117f;
+	cursor: pointer;
+	text-decoration: none;
+	background: none;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+.align_left {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+.align_right {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+#tt {
+	position:absolute;
+	display:block;
+	background:url(images/tt_left.gif) top left no-repeat;
+}
+#tttop {
+	display:block;
+	height:5px;
+	margin-left:5px;
+	background:url(images/tt_top.gif) top right no-repeat;
+	overflow:hidden;
+}
+#ttcont {
+	display:block;
+	padding:2px 12px 3px 7px;
+	margin-left:5px;
+	background:#666;
+	color:#fff;
+}
+#ttbot {
+	display:block;
+	height:5px;
+	margin-left:5px;
+	background:url(images/tt_bottom.gif) top right no-repeat;
+	overflow:hidden;
+}
+*/
+
+/* Our CSS */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+#loader {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+#logo {
+  display: block;
+  text-indent: -9999px;
+  width: 100%;
+  height: 514px;
+  background: url(/skins/bootstrap3/images/atleeve.svg);
+  background-size: 569px 514px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.logosmall {
+  margin: 10px;
+}
+
+#wrap {
+	display: none;
+}
+
+th, td {
+	white-space: nowrap;
+}
+
+.highlight_detail {
+	font-style: italic;
+}
+
+.ok {
+	color: #12d000;
+}
+
+.remove {
+	color: #e90b0b;
+}

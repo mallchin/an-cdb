@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cluster id="dsl-cluster-01">
+	<nodes>
+		<node id="dsl-c01n01">
+			<fqdn>dsl-c01n01.test.env</fqdn>
+			<state>0</state>
+			<services>
+				<service id="cman">
+					<state>0</state>
+				</service>
+				<service id="rmanager">
+					<state>0</state>
+				</service>
+				<service id="drbd">
+					<state>0</state>
+				</service>
+				<service id="clvmd">
+					<state>0</state>
+				</service>
+				<service id="gfs2">
+					<state>0</state>
+				</service>
+				<service id="libvirtd">
+					<state>0</state>
+				</service>
+			</services>
+			<resources>
+				<resource id="CPU">
+					<total>8</total>
+					<used>7</used>
+					<free>1</free>
+					<unit>Cores</unit>
+				</resource>
+				<resource id="RAM">
+					<total>27.00</total>
+					<used>1.00</used>
+					<free>26.00</free>
+					<unit>GiB</unit>
+				</resource>
+				<resource id="Storage">
+					<total>321.47</total>
+					<used>50.00</used>
+					<free>271.47</free>
+					<unit>GiB</unit>
+				</resource>
+			</resources>
+			<mounts>
+				<mount id="/shared">
+					<state>0</state>
+				</mount>
+				<mount id="/backup">
+					<state>0</state>
+				</mount>
+			</mounts>
+			<drbd>
+				<resource id="r0">
+					<mountpoint>/dev/drbd0</mountpoint>
+					<connection>WFConnection</connection>
+					<role>Primary</role>
+					<state>UpToDate</state>
+				</resource>
+				<resource id="r1">
+					<mountpoint>/dev/drbd1</mountpoint>
+					<connection>WFConnection</connection>
+					<role>Primary</role>
+					<state>UpToDate</state>
+				</resource>
+			</drbd>
+			<clients>
+				<client id="test1">
+					<state>0</state>
+				</client>
+			</clients>
+		</node>
+		<node id="dsl-c01n02">
+			<fqdn>dsl-c01n02.test.env</fqdn>
+			<state>1</state>
+		</node>
+	</nodes>
+	<mounts>
+		<mount id="/shared">
+			<total>40</total>
+			<used>0.8</used>
+			<free>40</free>
+			<unit>G</unit>
+		</mount>
+		<mount id="/backup">
+			<total>80</total>
+			<used>70</used>
+			<free>10</free>
+			<unit>G</unit>
+		</mount>
+	</mounts>
+	<clients>
+		<client id="test1">
+			<predilection>dsl-c01n01</predilection>
+			<resources>
+				<resource id="CPU">
+					<total>1</total>
+					<unit>Cores</unit>
+				</resource>
+				<resource id="RAM">
+					<total>1.00</total>
+					<unit>GiB</unit>
+				</resource>
+				<resource id="Storage">
+					<total>10.00</total>
+					<unit>GiB</unit>
+					<volume>/dev/dsl-c01n01_vg0/test1</volume>
+				</resource>
+				<resource id="Network">
+					<node>dsl-c01n01</node>
+					<vbr>vbr2</vbr>
+					<vnet>vnet0</vnet>
+					<virtio>virtio / 52:54:00:6B:1A:CE</virtio>
+				</resource>
+			</resources>
+		</client>
+	</clients>
+</cluster>
