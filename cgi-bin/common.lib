@@ -521,7 +521,8 @@ sub initialize_conf
 			error_limit		=>	10000,
 			language		=>	"en_CA",
 			html_lang		=>	"en",
-			skin			=>	"alteeve",
+			#skin			=>	"alteeve",
+			skin			=>	"bootstrap3",
 			version			=>	"1.1.4",
 			log_level		=>	3,
 			use_24h			=>	1,			# Set to 0 for am/pm time, 1 for 24h time

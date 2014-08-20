@@ -1,0 +1,3581 @@
+<!-- These templates are related to managing (virtual) servers off of the main page. -->
+
+
+
+<!--
+  _____                 _     
+ |  __ \               | |    
+ | |__) |_ _ _ __   ___| |___ 
+ |  ___/ _` | '_ \ / _ \ / __|
+ | |  | (_| | | | |  __/ \__ \
+ |_|   \__,_|_| |_|\___|_|___/
+                              
+-->
+
+
+
+<!--
+  _  _         _        ___         _           _    
+ | \| |___  __| |___   / __|___ _ _| |_ _ _ ___| |___
+ | .` / _ \/ _` / -_) | (__/ _ \ ' \  _| '_/ _ \ (_-<
+ |_|\_\___/\__,_\___|  \___\___/_||_\__|_| \___/_/__/
+                                                     
+-->		
+
+
+<!-- start display-node-controls-header -->
+<script type="text/javascript">
+NProgress.inc();
+</script>
+
+<div class="panel panel-default">
+	<div class="panel-heading">#!string!title_0109!#</div>
+	<div class="table-responsive">
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th>#!string!title_0098!#</th>
+					<th colspan="3">#!string!title_0110!#</th>
+					<th colspan="3">#!string!title_0111!#</th>
+					<th>#!string!title_0112!#</th>
+				</tr>
+			</thead>
+		<tbody>
+<!-- end display-node-controls-header -->
+
+
+<!-- start display-node-controls-entry-node-name -->
+				<tr>
+					<td>#!replace!say_node_name!#</td>
+<!-- end display-node-controls-entry-node-name -->
+
+
+<!-- start display-node-controls-entry-dual-boot -->
+					<td rowspan="2">#!replace!say_dual_boot!#</td>
+<!-- end display-node-controls-entry-dual-boot -->
+
+
+<!-- start display-node-controls-entry-power-control -->
+					<td >#!replace!say_boot!#</td>
+					<td>#!replace!say_shutdown!#</td>
+<!-- end display-node-controls-entry-power-control -->
+
+
+<!-- start display-node-controls-entry-dual-join -->
+					<td rowspan="2">#!replace!say_dual_join!#</td>
+<!-- end display-node-controls-entry-dual-join -->
+
+
+<!-- start display-node-controls-entry-membership -->
+					<td>#!replace!say_join!#</td>
+					<td>#!replace!say_withdraw!#</td>
+					<td>#!replace!say_fence!#</td>
+				</tr>
+<!-- end display-node-controls-entry-membership -->
+
+
+<!-- start display-node-controls-footer -->
+			</tbody>
+		</table>
+	</div>
+</div>
+<!-- end display-node-controls-footer -->
+
+
+
+<!--
+  ___                        ___ _        _               __   ___         _           _    
+ / __| ___ _ ___ _____ _ _  / __| |_ __ _| |_ _  _ ___   / /  / __|___ _ _| |_ _ _ ___| |___
+ \__ \/ -_) '_\ V / -_) '_| \__ \  _/ _` |  _| || (_-<  / /  | (__/ _ \ ' \  _| '_/ _ \ (_-<
+ |___/\___|_|  \_/\___|_|   |___/\__\__,_|\__|\_,_/__/ /_/    \___\___/_||_\__|_| \___/_/__/
+
+-->
+
+
+<!-- start display-server-state-and-control-header -->
+<script type="text/javascript">
+NProgress.inc();
+</script>
+
+<div class="panel panel-default">
+	<div class="panel-heading">#!string!title_0090!#</div>
+	<div class="table-responsive">
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th>#!string!title_0098!#</th>
+					<th>#!replace!node1_short_host_name!#</th>
+					<th>#!replace!node2_short_host_name!#</th>
+					<th>#!string!title_0091!#</th>
+					<th colspan="6">#!string!title_0092!#</th>
+				</tr>
+			</thead>
+			<tbody>
+<!-- end display-server-state-and-control-header -->
+
+
+<!-- start display-server-details-entry -->
+				<tr>
+					<td>#!replace!vm_link!#</td>
+					<td>#!replace!say_node1!#</td>
+					<td>#!replace!say_node2!#</td>
+					<td>#!replace!prefered_host!#</td>
+					<td>#!replace!start_button!#</td>
+					<td>#!replace!migrate_button!#</td>
+					<td>#!replace!stop_button!#</td>
+					<td>#!replace!force_off_button!#</td>
+					<td>&nbsp;</td>
+					<td>#!replace!delete_button!#</td>
+				</tr>
+<!-- end display-server-details-entry -->
+
+
+<!-- start display-server-state-and-control-footer -->
+			</tbody>
+		</table>
+	</div>
+</div>
+<!-- end display-server-state-and-control-footer -->
+
+
+
+<!--
+  _  _         _       ___ _        _           
+ | \| |___  __| |___  / __| |_ __ _| |_ _  _ ___
+ | .` / _ \/ _` / -_) \__ \  _/ _` |  _| || (_-<
+ |_|\_\___/\__,_\___| |___/\__\__,_|\__|\_,_/__/
+                                                
+-->
+
+
+<!-- start display-node-details-header -->
+<script type="text/javascript">
+NProgress.inc();
+</script>
+
+<div class="panel panel-default">
+	<div class="panel-heading">#!string!title_0102!#</div>
+	<div class="table-responsive">
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th>#!string!title_0098!#</th>
+					<th>#!string!title_0103!#</th>
+					<th>#!string!title_0104!#</th>
+					<th>#!string!title_0105!#</th>
+					<th>#!string!title_0106!#</th>
+					<th>#!string!title_0107!#</th>
+					<th>#!string!title_0108!#</th>
+				</tr>
+			</thead>
+			<tbody>
+<!-- end display-node-details-header -->
+
+
+<!-- start display-node-details-entry -->
+				<tr>
+					<td>#!replace!host_name!#</td>
+					<td>#!replace!cman!#</td>
+					<td>#!replace!rgmanager!#</td>
+					<td>#!replace!drbd!#</td>
+					<td>#!replace!clvmd!#</td>
+					<td>#!replace!gfs2!#</td>
+					<td>#!replace!libvirtd!#</td>
+				</tr>
+<!-- end display-node-details-entry -->
+
+
+<!-- start display-node-details-footer -->
+			</tbody>
+		</table>
+	</div>
+</div>
+<!-- end display-node-details-footer -->
+
+
+
+<!--
+  ___                        ___      _        _ _    
+ / __| ___ _ ___ _____ _ _  |   \ ___| |_ __ _(_) |___
+ \__ \/ -_) '_\ V / -_) '_| | |) / -_)  _/ _` | | (_-<
+ |___/\___|_|  \_/\___|_|   |___/\___|\__\__,_|_|_/__/
+                                                      
+-->
+
+
+<!-- start display-server-details-header -->
+<script type="text/javascript">
+NProgress.inc();
+</script>
+
+<div class="panel panel-default">
+	<div class="panel-heading">#!string!title_0088!#</div>
+	<div class="table-responsive">
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th>#!string!title_0098!#</th>
+					<th>#!string!title_0075!#</th>
+					<th>#!string!title_0076!#</th>
+					<th colspan="2">#!string!title_0077!#</th>
+					<th>#!string!title_0089!#</th>
+				</tr>
+			</thead>
+			<tbody>
+<!-- end display-server-details-header -->
+
+
+<!-- start display-server-details-resources -->
+				<tr>
+					<td>#!replace!say_vm!#</td>
+					<td>#!replace!cpu_count!#</td>
+					<td>#!replace!say_ram!#</td>
+					<td>#!replace!lv_path!#</td>
+					<td>#!replace!lv_size!#</td>
+					<td>#!replace!say_net_host!# #!replace!type!# / #!replace!mac!#</td>
+				</tr>
+<!-- end display-server-details-resources -->
+
+
+<!-- start display-server-details-entra-storage -->
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>#!replace!say_lv_path!#</td>
+					<td>#!replace!say_lv_size!#</td>
+					<td>#!replace!say_network!#</td>
+				</tr>
+<!-- end display-server-details-entra-storage -->
+
+
+<!-- start display-server-details-footer -->
+			</tbody>
+		</table>
+	</div>
+</div>
+<!-- end display-server-details-footer -->
+
+
+<!-- start display-server-details-network-entry -->
+<span class="highlight_detail">#!replace!host!#</span> -> <span class="highlight_detail">#!replace!bridge!#</span> -> <span class="highlight_detail">#!replace!device!#</span> ->
+<!-- end display-server-details-network-entry -->
+
+
+<!-- start display-server-details-entra-nics -->
+<span class="highlight_detail">#!replace!say_host!#</span> -> <span class="highlight_detail">#!replace!bridge!#</span> -> <span class="highlight_detail">#!replace!device!#</span> ->
+<!-- end display-server-details-entra-nics -->
+
+
+
+<!--
+   ___ _         _             ___ _                         
+  / __| |_  _ __| |_ ___ _ _  / __| |_ ___ _ _ __ _ __ _ ___ 
+ | (__| | || (_-<  _/ -_) '_| \__ \  _/ _ \ '_/ _` / _` / -_)
+  \___|_|\_,_/__/\__\___|_|   |___/\__\___/_| \__,_\__, \___|
+                                                   |___/     
+-->
+
+
+<!-- start display-cluster-storage-header -->
+<script type="text/javascript">
+NProgress.inc();
+</script>
+
+<div class="panel panel-default">
+	<div class="panel-heading">#!string!title_0099!#</div>
+	<div class="table-responsive">
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th>#!string!title_0100!#</th>
+					<th>#!replace!say_node1!#</th>
+					<th>#!replace!say_node2!#</th>
+					<th>#!string!title_0085!#</th>
+					<th>#!string!title_0086!#</th>
+					<th>#!string!title_0087!#</th>
+				</tr>
+			</thead>
+			<tbody>
+<!-- end display-cluster-storage-header -->
+
+
+<!-- start display-cluster-storage-not-online -->
+				<tr>
+					<td>#!string!symbol_0011!#</td>
+					<td>--</td>
+					<td>--</td>
+					<td>--</td>
+					<td>-- / --%</td>
+					<td>--</td>
+				</tr>
+<!-- end display-cluster-storage-not-online -->
+
+
+<!-- start display-cluster-storage-entry -->
+				<tr>
+					<td>#!replace!mount_point!#</td>
+					<td>#!replace!say_node1_mounted!#</td>
+					<td>#!replace!say_node2_mounted!#</td>
+					<td>#!replace!say_size!#</td>
+					<td>#!replace!say_used!# / #!replace!say_used_percent!#</td>
+					<td>#!replace!say_free!#</td>
+				</tr>
+<!-- end display-cluster-storage-entry -->
+
+
+<!-- start display-cluster-storage-no-entries-found -->
+				<tr>
+					<td colspan="6">#!string!title_0101!#</td>
+				</tr>
+<!-- end display-cluster-storage-no-entries-found -->
+
+
+<!-- start display-cluster-storage-footer -->
+			</tbody>
+		</table>
+	</div>
+</div>
+<!-- end display-cluster-storage-footer -->
+
+
+
+<!--
+  ___          _ _         _          _   ___ _                         
+ | _ \___ _ __| (_)__ __ _| |_ ___ __| | / __| |_ ___ _ _ __ _ __ _ ___ 
+ |   / -_) '_ \ | / _/ _` |  _/ -_) _` | \__ \  _/ _ \ '_/ _` / _` / -_)
+ |_|_\___| .__/_|_\__\__,_|\__\___\__,_| |___/\__\___/_| \__,_\__, \___|
+         |_|                                                  |___/     
+-->
+
+
+<!-- start display-replicated-storage-header -->
+<script type="text/javascript">
+NProgress.inc();
+</script>
+
+<div class="panel panel-default">
+	<div class="panel-heading">#!string!title_0093!#</div>
+	<div class="table-responsive">
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th>&nbsp;</th>
+					<th colspan="2">#!string!title_0094!#</th>
+					<th colspan="2">#!string!title_0095!#</th>
+					<th colspan="2">#!string!title_0096!#</th>
+					<th colspan="2">#!string!title_0097!#</th>
+				</tr>
+				<tr>
+					<th>#!string!title_0098!#</th>
+					<th>#!replace!say_node1!#</th>
+					<th>#!replace!say_node2!#</th>
+					<th>#!replace!say_node1!#</th>
+					<th>#!replace!say_node2!#</th>
+					<th>#!replace!say_node1!#</th>
+					<th>#!replace!say_node2!#</th>
+					<th>#!replace!say_node1!#</th>
+					<th>#!replace!say_node2!#</th>
+				</tr>
+			</thead>
+			<tbody>
+<!-- end display-replicated-storage-header -->
+
+
+<!-- start display-replicated-storage-entry -->
+				<tr>
+					<td>#!replace!res!#</td>
+					<td>#!replace!say_n1_dev!#</td>
+					<td>#!replace!say_n2_dev!#</td>
+					<td>#!replace!say_n1_cs!#</td>
+					<td>#!replace!say_n2_cs!#</td>
+					<td>#!replace!say_n1_ro!#</td>
+					<td>#!replace!say_n2_ro!#</td>
+					<td><span class="#!replace!class_n1_ds!#">#!replace!say_n1_ds!#</span></td>
+					<td><span class="#!replace!class_n2_ds!#">#!replace!say_n2_ds!#</span></td>
+				</tr>
+<!-- end display-replicated-storage-entry -->
+
+
+<!-- start display-replicated-storage-footer -->
+			</tbody>
+		</table>
+	</div>
+</div>
+<!-- end display-replicated-storage-footer -->
+
+
+
+<!--
+    _           _ _      _    _       ___                                
+   /_\__ ____ _(_) |__ _| |__| |___  | _ \___ ___ ___ _  _ _ _ __ ___ ___
+  / _ \ V / _` | | / _` | '_ \ / -_) |   / -_|_-</ _ \ || | '_/ _/ -_|_-<
+ /_/ \_\_/\__,_|_|_\__,_|_.__/_\___| |_|_\___/__/\___/\_,_|_| \__\___/__/
+                                                                         
+-->
+
+
+<!-- start display-details-free-resources-header -->
+<script type="text/javascript">
+NProgress.inc();
+</script>
+
+<div class="panel panel-default">
+	<div class="panel-heading">#!string!title_0074!#</div>
+	<div class="table-responsive">
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th colspan="3">#!string!title_0075!#</th>
+					<th colspan="3">#!string!title_0076!#</th>
+					<th colspan="6">#!string!title_0077!#</th>
+				</tr>
+				<tr>
+					<th>#!string!title_0078!#</th>
+					<th>#!string!title_0079!#</th>
+					<th>#!string!title_0080!#</th>
+					<th>#!string!title_0081!#</th>
+					<th>#!string!title_0080!#</th>
+					<th>#!string!title_0082!#</th>
+					<th>#!string!title_0083!#</th>
+					<th>&nbsp;</th>
+					<th>#!string!title_0084!#</th>
+					<th>#!string!title_0085!#</th>
+					<th>#!string!title_0086!#</th>
+					<th>#!string!title_0087!#</th>
+				</tr>
+			</thead>
+			<tbody>
+<!-- end display-details-free-resources-header -->
+
+
+<!-- start display-details-free-resources-entry -->
+				<tr>
+					<td>#!replace!total_cores!#</td>
+					<td>#!replace!total_threads!#</td>
+					<td>#!replace!allocated_cores!#</td>
+					<td>#!replace!real_total_ram!# (#!replace!say_total_ram!#)</td>
+					<td>#!replace!say_allocated_ram!#</td>
+					<td>#!replace!say_free_ram!#</td>
+					<td>#!replace!say_vg!#</td>
+					<td>#!string!message_0270!#</td>
+					<td>#!replace!say_pv_name!#</td>
+					<td>#!replace!say_vg_size!#</td>
+					<td>#!replace!say_vg_used!#</td>
+					<td>#!replace!say_vg_free!#</td>
+				</tr>
+<!-- end display-details-free-resources-entry -->
+
+
+<!-- start display-details-free-resources-entry-extra-storage -->
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>#!replace!vg!#</td>
+					<td>#!string!message_0270!#</td>
+					<td>#!replace!pv_name!#</td>
+					<td>#!replace!say_vg_size!#</td>
+					<td>#!replace!say_vg_used!#</td>
+					<td>#!replace!say_vg_free!#</td>
+				</tr>
+<!-- end display-details-free-resources-entry-extra-storage -->
+
+
+<!-- start display-details-bottom-button-bar -->
+				<tr>
+					<td colspan="12">
+						<table class="hidden_table" width="100%">
+							<tr>
+								<td width="50%" class="td_hidden">#!replace!say_bns!#</td>
+								<td width="50%" class="td_hidden">#!replace!say_mc!#</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<!-- end display-details-bottom-button-bar -->
+
+
+
+<!--
+               _   _                 
+     /\       | | (_)                
+    /  \   ___| |_ _  ___  _ __  ___ 
+   / /\ \ / __| __| |/ _ \| '_ \/ __|
+  / ____ \ (__| |_| | (_) | | | \__ \
+ /_/    \_\___|\__|_|\___/|_| |_|___/
+                                     
+-->
+
+
+
+<!--
+  _   _          _      _         ___                      
+ | | | |_ __  __| |__ _| |_ ___  / __| ___ _ ___ _____ _ _ 
+ | |_| | '_ \/ _` / _` |  _/ -_) \__ \/ -_) '_\ V / -_) '_|
+  \___/| .__/\__,_\__,_|\__\___| |___/\___|_|  \_/\___|_|  
+       |_|                                                 
+-->
+
+
+<!-- start update-server-config-header -->
+<table>
+	<tr>
+		<td colspan="2" class="highlight_ready_bold">
+			<b>#!replace!title!#</b>
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_ready_bold">
+			<br />
+			#!string!title_0024!#<br />
+			<br />
+		</td>
+		<td>
+<!-- end update-server-config-header -->
+
+
+<!-- start update-server-error-message -->
+			#!replace!title!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_warning_bold">
+			#!string!row_0044!#
+		</td>
+		<td>
+			#!replace!message!#<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end update-server-error-message -->
+
+
+<!-- start server-poweroff-required-message -->
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_note_bold">
+			#!string!row_0032!#
+		</td>
+		<td>
+			<br />
+			<i>#!string!title_0027!#</i><br />
+			<br />
+			#!string!title_0028!#<br />
+			<br />
+			<table class="hidden_table">
+				<tr>
+					<td class="td_hidden" style="text-align: left;">
+						<span class="code">#!string!symbol_0001!#.</span> #!string!message_0062!#<br />
+						<br />
+						<span class="code">#!string!symbol_0002!#.</span> #!string!message_0063!#<br />
+					</td>
+				</tr>
+			</table>
+			<br />
+			#!string!message_0064!#<br />
+			<br />
+<!-- end server-poweroff-required-message -->
+
+
+<!-- start update-server-config-footer -->
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="align_right"><a href="#!replace!url!#" class="button">#!string!button_0016!#</a></div>
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end update-server-config-footer -->
+
+
+<!-- start no-change-message -->
+			#!string!title_0029!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_warning_bold">
+			#!string!row_0044!#
+		</td>
+		<td>
+			#!string!message_0065!#<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end no-change-message -->
+
+
+
+<!--
+  ___                  _     __  __        _ _      
+ |_ _|_ _  ___ ___ _ _| |_  |  \/  |___ __| (_)__ _ 
+  | || ' \(_-</ -_) '_|  _| | |\/| / -_) _` | / _` |
+ |___|_||_/__/\___|_|  \__| |_|  |_\___\__,_|_\__,_|
+                                                    
+-->
+
+
+<!-- start insert-media-header -->
+<table>
+	<tr>
+		<td colspan="2">
+			<b>#!string!title_0030!#</b>
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_ready_bold">
+			#!string!row_0082!#
+		</td>
+		<td>
+<!-- end insert-media-header -->
+
+
+<!-- start insert-media-failed-already-mounted -->
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_ready_bold">
+			#!string!row_0032!#
+		</td>
+		<td>
+			#!string!message_0066!#<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end insert-media-failed-already-mounted -->
+
+
+<!-- start insert-media-success -->
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0083!#
+		</td>
+		<td>
+			#!string!message_0067!#<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end insert-media-success -->
+
+
+<!-- start insert-media-failed-bad-exit-code -->
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_warning_bold">
+			#!string!row_0044!#
+		</td>
+		<td>
+			<br />
+			#!string!message_0068!#<br />
+			#!replace!error!#<br />
+			#!string!brand_0011!#<br />
+			<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end insert-media-failed-bad-exit-code -->
+
+
+<!-- start insert-media-server-off -->
+			#!string!explain_0021!#<br />
+			#!string!message_0070!#<br />
+<!-- end insert-media-server-off -->
+
+
+<!-- start insert-media-footer -->
+			#!string!row_0019!#
+			<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end insert-media-footer -->
+
+
+
+<!--
+  ___  _        _     __  __        _ _      
+ | __|(_)___ __| |_  |  \/  |___ __| (_)__ _ 
+ | _| | / -_) _|  _| | |\/| / -_) _` | / _` |
+ |___|/ \___\__|\__| |_|  |_\___\__,_|_\__,_|
+    |__/                                     
+-->
+
+
+<!-- start eject-media-header -->
+<table>
+	<tr>
+		<td colspan="2">
+			<b>#!string!title_0031!#</b>
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_ready_bold">
+			#!string!row_0084!#
+		</td>
+		<td>
+<!-- end eject-media-header -->
+
+
+<!-- start eject-media-failed-already-ejected -->
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_ready_bold">
+			#!string!row_0032!#
+		</td>
+		<td>
+			#!string!message_0071!#<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end eject-media-failed-already-ejected -->
+
+
+<!-- start eject-media-success -->
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0083!#
+		</td>
+		<td>
+			#!string!message_0072!#<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end eject-media-success -->
+
+
+<!-- start eject-media-failed-bad-exit-code -->
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_warning_bold">
+			#!string!row_0044!#
+		</td>
+		<td>
+			#!string!message_0068!#<br />
+			#!string!message_0073!#<br />
+			#!string!brand_0011!#<br />
+			<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end eject-media-failed-bad-exit-code -->
+
+
+<!-- start eject-media-server-off -->
+			#!string!explain_0021!#<br />
+			#!string!message_0070!#<br />
+<!-- end eject-media-server-off -->
+
+
+<!-- start saving-server-config -->
+			#!string!message_0074!#<br />
+<!-- end saving-server-config -->
+
+
+<!-- start eject-media-footer -->
+			#!string!row_0019!#
+			<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end eject-media-footer -->
+
+
+
+<!--
+  __  __                           ___                      
+ |  \/  |__ _ _ _  __ _ __ _ ___  / __| ___ _ ___ _____ _ _ 
+ | |\/| / _` | ' \/ _` / _` / -_) \__ \/ -_) '_\ V / -_) '_|
+ |_|  |_\__,_|_||_\__,_\__, \___| |___/\___|_|  \_/\___|_|  
+                       |___/                                
+-->
+
+
+<!-- start manager-server-header -->
+<table>
+	<form method="post">
+	<tr>
+		<td colspan="4">
+			<b>#!string!title_0032!#</b>
+		</td>
+	</tr>
+	<tr><td style="height:10px; padding:0px" colspan="4"></td></tr>
+<!-- end manager-server-header -->
+
+
+<!-- start manager-server-optical-drive -->
+	<tr>
+		<td class="highlight_good_bold">
+			#!replace!optical_drive!#
+		</td>
+		<td style="text-align: left;">
+			<span class="subtle_text">#!replace!state!#</span><br />
+			#!replace!disk!#
+		</td>
+		<td>
+			&nbsp;
+		</td>
+		<td>
+			#!replace!button!#
+		</td>
+	</tr>
+	<tr><td style="height:10px; padding:0px" colspan="5"></td></tr>
+<!-- end manager-server-optical-drive -->
+
+
+<!-- start manager-server-show-details -->
+	<tr>
+		<td class="highlight_good_bold">
+			Boot Drive:
+		</td>
+		<td style="text-align: left;">
+			<span class="subtle_text">#!replace!current_boot_device!#</span><br />
+			#!replace!boot_select!#
+		</td>
+		<td>
+			&nbsp;
+		</td>
+		<td colspan="2" rowspan="5">
+			<input type="submit" name="change" value="#!string!button_0019!#" class="button">
+		</td>
+	</tr>
+	<tr><td style="height:10px; padding:0px" colspan="3"></td></tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0086!#:
+		</td>
+		<td style="text-align: left;">
+			<span class="subtle_text">#!replace!ram_details!#</span><br />
+			<input type="input" name="ram" value="#!replace!ram!#" style="width: 100px;"> #!replace!select_ram_suffix!#
+		</td>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+	<tr><td style="height:10px; padding:0px" colspan="3"></td></tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0087!#:
+		</td>
+		<td style="text-align: left;">
+			<span class="subtle_text">#!replace!cpu_details!#</span><br />
+			#!replace!select_cpu_cores!#
+		</td>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+	<tr><td style="height:10px; padding:0px" colspan="3"></td></tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0088!#:
+		</td>
+		<td style="text-align: center;">
+			<span class="subtle_text_wrap">#!string!message_0084!#</span><br />
+			<br />
+			#!replace!remote_icon!#<br />
+			<br />
+			#!replace!message!#<br />
+			<br />
+		</td>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0089!#
+		</td>
+		<td style="text-align: center;">
+			#!replace!restart_tomcat!#<br />
+		</td>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<input type="hidden" name="cluster" value="#!replace!anvil!#">
+			<input type="hidden" name="vm" value="#!replace!server!#">
+			<input type="hidden" name="task" value="#!replace!task!#">
+			<input type="hidden" name="device_keys" value="#!replace!device_keys!#">
+			&nbsp;
+		</td>
+	</tr>
+	</form>
+</table>
+<br />
+<!-- end manager-server-show-details -->
+
+
+
+<!--
+    _      _    _   ___                      
+   /_\  __| |__| | / __| ___ _ ___ _____ _ _ 
+  / _ \/ _` / _` | \__ \/ -_) '_\ V / -_) '_|
+ /_/ \_\__,_\__,_| |___/\___|_|  \_/\___|_|  
+                                             
+-->
+
+
+<!-- start add-server-to-anvil-header -->
+<table>
+	<tr>
+		<td colspan="2">
+			<b>#!string!title_0033!#</b>
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0092!#
+		</td>
+		<td>
+			<br />
+			#!string!message_0090!#</br >
+			<br />
+<!-- end add-server-to-anvil-header -->
+
+
+<!-- start one-line-message -->
+			#!replace!message!#<br />
+<!-- end one-line-message -->
+
+
+<!-- start add-server-to-anvil-failed-to-boot -->
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_warning_bold">
+			#!string!row_0044!#
+		</td>
+		<td>
+			<br />
+			#!string!message_0068!#<br />
+			#!replace!error!#<br />
+			#!string!brand_0011!#<br />
+			<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end add-server-to-anvil-failed-to-boot -->
+
+
+<!-- start add-server-to-anvil-write-definition -->
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0093!#
+		</td>
+		<td>
+			<br />
+			#!string!message_0097!#<br />
+<!-- end add-server-to-anvil-write-definition -->
+
+
+<!-- start add-server-to-anvil-no-server-name -->
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_warning_bold">
+			#!string!row_0044!#
+		</td>
+		<td>
+			<br />
+			#!string!message_0068!#<br />
+			#!replace!error!#<br />
+			#!string!brand_0011!#<br />
+			<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end add-server-to-anvil-no-server-name -->
+
+
+<!-- start add-server-to-anvil-failed-to-write-definition -->
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_warning_bold">
+			#!string!row_0044!#
+		</td>
+		<td>
+			#!string!message_0068!#<br />
+			#!replace!error!#<br />
+			#!string!brand_0011!#<br />
+			<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end add-server-to-anvil-failed-to-write-definition -->
+
+
+<!-- start add-server-to-anvil-undefine-server -->
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0094!#
+		</td>
+		<td>
+			<br />
+			#!string!message_0101!#<br />
+<!-- end add-server-to-anvil-undefine-server -->
+
+
+<!-- start add-server-to-anvil-failed-to-undefine-server -->
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_warning_bold">
+			#!string!row_0044!#
+		</td>
+		<td>
+			<br />
+			#!replace!error!#<br />
+			<br />
+			#!string!message_0104!#<br />
+<!-- end add-server-to-anvil-failed-to-undefine-server -->
+
+
+<!-- start add-server-to-anvil-add-to-rgmanager -->
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0095!#
+		</td>
+		<td>
+			<br />
+			#!string!message_0105!#<br />
+			<i>#!string!message_0106!#</i></br />
+			#!string!message_0107!#</br >
+			<br />
+<!-- end add-server-to-anvil-add-to-rgmanager -->
+
+
+<!-- start add-server-to-anvil-ccs-call-failed -->
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_bad_bold">
+			#!string!row_0096!#
+		</td>
+		<td>
+			<br />
+			#!string!message_0068!#<br />
+			#!replace!error!#<br />
+			#!string!brand_0011!#<br />
+			<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end add-server-to-anvil-ccs-call-failed -->
+
+
+<!-- start add-server-to-anvil-enable-service -->
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0097!#
+		</td>
+		<td>
+			<br />
+			#!string!message_0113!#<br />
+			<br />
+<!-- end add-server-to-anvil-enable-service -->
+
+
+<!-- start add-server-to-anvil-clusvcadm-call-failed -->
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_bad_bold">
+			#!string!row_0096!#
+		</td>
+		<td>
+			<br />
+			#!string!message_0068!#<br />
+			#!replace!error!#<br />
+			#!string!message_0088!#<br />
+			#!string!brand_0011!#<br />
+			<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end add-server-to-anvil-clusvcadm-call-failed -->
+
+
+<!-- start add-server-to-anvil-footer -->
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			Success!
+		</td>
+		<td>
+			The new virtual machine has been added to the cluster.
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end add-server-to-anvil-footer -->
+
+
+
+<!--
+  ___             _    _            ___                      
+ | _ \_ _ _____ _(_)__(_)___ _ _   / __| ___ _ ___ _____ _ _ 
+ |  _/ '_/ _ \ V / (_-< / _ \ ' \  \__ \/ -_) '_\ V / -_) '_|
+ |_| |_| \___/\_/|_/__/_\___/_||_| |___/\___|_|  \_/\___|_|  
+                                                             
+-->
+
+
+<!-- start provision-server-header -->
+<table>
+	<tr>
+		<td colspan="2" class="highlight_ready_bold">
+			<b>#!replace!title!#</b>
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0098!#
+		</td>
+		<td>
+			#!string!message_0116!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_warning_bold">
+			#!string!row_0032!#
+		</td>
+		<td>
+			<br />
+			<i>#!string!message_0117!#</i><br />
+			<br />
+			#!string!explain_0023!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0099!#
+		</td>
+		<td>
+			<br />
+<!-- end provision-server-header -->
+
+
+<!-- start provision-server-install-started -->
+			#!string!message_0122!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0100!#
+		</td>
+		<td>
+			<br />
+			#!string!message_0123!#<br />
+			<br />
+			#!replace!icon!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0101!#
+		</td>
+		<td>
+			<br />
+			#!string!message_0124!#<br />
+			<br />
+		</td>
+<!-- end provision-server-install-started -->
+
+
+<!-- start provision-server-install-started-no-guacamole -->
+			#!string!message_0122!#<br />
+			#!string!message_0125!#<br />
+			#!string!message_0124!#<br />
+			<br />
+<!-- end provision-server-install-started-no-guacamole -->
+
+
+<!-- start provision-server-footer -->
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="align_right" style="white-space: nowrap;">#!string!message_0126!#</div>
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end provision-server-footer -->
+
+
+
+<!--
+ __   __       _  __        ___                      
+ \ \ / /__ _ _(_)/ _|_  _  / __| ___ _ ___ _____ _ _ 
+  \ V / -_) '_| |  _| || | \__ \/ -_) '_\ V / -_) '_|
+   \_/\___|_| |_|_|  \_, | |___/\___|_|  \_/\___|_|  
+                     |__/                            
+-->
+
+
+<!-- start verify-server-header -->
+<table>
+<!-- end verify-server-header -->
+
+<!-- start verify-server-error -->
+	<tr>
+		<td class="highlight_warning">
+			#!replace!title!#
+		</td>
+		<td>
+			#!replace!body!#
+		</td>
+	</tr>
+<!-- end verify-server-error -->
+
+<!-- start verify-server-footer -->
+</table>
+<br />
+<!-- end verify-server-footer -->
+
+
+
+<!--
+  ___             _    _            ___ _                         
+ | _ \_ _ _____ _(_)__(_)___ _ _   / __| |_ ___ _ _ __ _ __ _ ___ 
+ |  _/ '_/ _ \ V / (_-< / _ \ ' \  \__ \  _/ _ \ '_/ _` / _` / -_)
+ |_| |_| \___/\_/|_/__/_\___/_||_| |___/\__\___/_| \__,_\__, \___|
+                                                        |___/     
+-->
+
+
+<!-- start provision-server-storage-pool-or-message -->
+<span class="fixed_width">- #!string!message_0140!# -</span><br />
+<!-- end provision-server-storage-pool-or-message -->
+
+
+<!-- start provision-server-selects -->
+<span class="fixed_width">#!replace!node!#</span>, <span class="fixed_width">#!replace!short_vg!#</span> (<span class="subtle_text">#!replace!max_storage!# #!string!message_0141!#</span>): <input type="text" name="#!replace!vg_key!#" value="#!replace!vg_key_value!#" style="width: 100px">#!replace!select_vg_suffix!#<br />
+<!-- end provision-server-selects -->
+
+
+<!-- start provision-server-vg-list-hidden-input -->
+<input type="hidden" name="vg_list" value="#!replace!vg_list!#">
+<!-- end provision-server-vg-list-hidden-input -->
+
+
+<!-- start provision-server-questions -->
+<table>
+	<form method="post">
+	<tr>
+		<td colspan="3" class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_note"><b>#!string!row_0032!#</b></span>:
+		</td>
+		<td colspan="2">
+			<br />
+			#!string!message_0143!#<br />
+			#!string!message_0144!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0114!#:
+		</td>
+		<td>
+			<input type="text" name="name" value="#!replace!name!#" style="width: 300px">
+		</td>
+		<td class="subtle_text">
+			#!string!explain_0024!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0115!#:
+		</td>
+		<td>
+			<!-- Update this list by referencing 'virt-install --os-variant list' and feeding it through 'parse-os_variants.pl'. -->
+			#!replace!select_os_variant!#
+		</td>
+		<td class="subtle_text">
+			#!string!explain_0025!#
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0116!#:
+		</td>
+		<td>
+			<a href="#!replace!media_library_url!#" target="_new">#!string!button_0021!#</a>
+		</td>
+		<td class="subtle_text">
+			#!string!explain_0026!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0117!#:
+		</td>
+		<td>
+			#!replace!select_install_iso!#
+		</td>
+		<td class="subtle_text">
+			#!string!explain_0027!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0118!#:
+		</td>
+		<td>
+			#!replace!select_driver_iso!#
+		</td>
+		<td class="subtle_text">
+			#!string!explain_0028!#<br />
+			#!string!explain_0029!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0086!#:
+		</td>
+		<td>
+			(<span class="subtle_text">#!replace!say_max_ram!# #!string!message_0141!#</span>) <input type="input" name="ram" value="#!replace!ram!#" style="width: 100px;"> #!replace!select_ram_suffix!#
+		</td>
+		<td class="subtle_text">
+			#!string!explain_0030!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0087!#:
+		</td>
+		<td>
+			#!replace!select_cpu_cores!#
+		</td>
+		<td class="subtle_text">
+			#!string!explain_0031!#<br />
+			#!string!explain_0032!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0119!#:
+		</td>
+		<td>
+			#!replace!selects!#
+		</td>
+		<td class="subtle_text">
+			#!string!explain_0033!#<br />
+			#!string!explain_0034!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<input type="hidden" name="cluster" value="#!replace!anvil!#">
+			<input type="hidden" name="task" value="#!replace!task!#">
+			<input type="hidden" name="max_ram" value="#!replace!max_ram!#">
+			<input type="hidden" name="max_cores" value="#!replace!max_cores!#">
+			<input type="hidden" name="max_storage" value="#!replace!max_storage!#">
+			<div class="align_right"><input type="submit" name="confirm" value="#!string!button_0004!#" class="button"></div>
+		</td>
+	</tr>
+	</form>
+</table>
+<br />
+<!-- end provision-server-questions -->
+
+
+
+<!--
+  ___ _            _     ___                      
+ / __| |_ __ _ _ _| |_  / __| ___ _ ___ _____ _ _ 
+ \__ \  _/ _` | '_|  _| \__ \/ -_) '_\ V / -_) '_|
+ |___/\__\__,_|_|  \__| |___/\___|_|  \_/\___|_|  
+                                                  
+-->
+
+
+<!-- start start-server-header -->
+<table>
+	<tr>
+		<td colspan="2" class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			#!string!message_0179!#
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<br />
+			<table class="hidden_table" width="100%">
+<!-- end start-server-header -->
+
+
+<!-- start start-server-already-running -->
+				<tr>
+					<td style="border: 1px solid white;" class="highlight_note">
+						#!string!row_0032!#
+					</td>
+					<td style="border: 1px solid white;" class="fixed_width" align="left">
+						#!string!message_0180!#<br />
+					</td>
+				</tr>
+<!-- end start-server-already-running -->
+
+
+<!-- start start-server-failed -->
+				<tr>
+					<td style="border: 1px solid white;" class="highlight_warning_bold">
+						#!string!row_0044!#
+					</td>
+					<td style="border: 1px solid white;" class="fixed_width" align="left">
+						#!string!message_0181!#<br />
+					</td>
+				</tr>
+<!-- end start-server-failed -->
+
+
+<!-- start start-server-shell-output -->
+				<tr>
+					<td style="border: 1px solid white;" class="fixed_width" align="left">
+						#!replace!message!#
+					</td>
+					<td style="border: 1px solid white;" class="fixed_width">
+						#!replace!status!#
+					</td>
+				</tr>
+<!-- end start-server-shell-output -->
+
+
+<!-- start start-server-failed-trying-again -->
+				<tr>
+					<td style="border: 1px solid white;" class="highlight_ready_bold">
+						#!string!row_0125!#
+					</td>
+					<td style="border: 1px solid white;" class="fixed_width" align="left">
+						#!string!message_0182!#<br />
+					</td>
+				</tr>
+<!-- end start-server-failed-trying-again -->
+
+
+<!-- start start-server-failed-again -->
+				<tr>
+					<td style="border: 1px solid white;" class="highlight_bad_bold">
+						#!string!row_0096!#
+					</td>
+					<td style="border: 1px solid white;" class="fixed_width" align="left">
+						#!string!message_0183!#<br />
+						#!string!brand_0011!#<br />
+					</td>
+				</tr>
+<!-- end start-server-failed-again -->
+
+
+<!-- start start-server-output-footer -->
+			</table>
+			<br />
+		</td>
+	</tr>
+<!-- end start-server-output-footer -->
+
+
+<!-- start start-server-show-guacamole-link -->
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0088!#
+		</td>
+		<td style="text-align: center;">
+			<span class="subtle_text_wrap">#!string!message_0084!#</span><br />
+			<br />
+			#!replace!remote_icon!#<br />
+			<br />
+			#!replace!remote_message!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0089!#
+		</td>
+		<td style="text-align: center;">
+			#!replace!restart_tomcat!#<br />
+		</td>
+	</tr>
+<!-- end start-server-show-guacamole-link -->
+
+
+<!-- start start-server-footer -->
+	<tr>
+		<td colspan="2">
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end start-server-footer -->
+
+
+<!-- start start-server-node-not-ready -->
+<table>
+	<tr>
+		<td class="highlight_bad_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			#!string!message_0185!#<br />
+			#!string!message_0186!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end start-server-node-not-ready -->
+
+
+
+<!--
+  __  __ _               _         ___                      
+ |  \/  (_)__ _ _ _ __ _| |_ ___  / __| ___ _ ___ _____ _ _ 
+ | |\/| | / _` | '_/ _` |  _/ -_) \__ \/ -_) '_\ V / -_) '_|
+ |_|  |_|_\__, |_| \__,_|\__\___| |___/\___|_|  \_/\___|_|  
+          |___/                                             
+-->
+
+
+<!-- start migrate-server-header -->
+<table>
+	<tr>
+		<td class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			#!string!message_0179!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			<table class="hidden_table" width="100%">
+<!-- end migrate-server-header -->
+
+
+<!-- start migrate-server-footer -->
+			</table>
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end migrate-server-footer -->
+
+
+
+<!--
+  ___ _              ___                      
+ / __| |_ ___ _ __  / __| ___ _ ___ _____ _ _ 
+ \__ \  _/ _ \ '_ \ \__ \/ -_) '_\ V / -_) '_|
+ |___/\__\___/ .__/ |___/\___|_|  \_/\___|_|  
+             |_|                              
+-->
+
+
+<!-- start stop-server-header -->
+<table>
+	<tr>
+		<td>
+			<span class="highlight_ready_bold">#!replace!title!#</span><br />
+			#!string!message_0188!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			#!string!message_0179!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			<table class="hidden_table" width="100%">
+<!-- end stop-server-header -->
+
+
+<!-- start stop-server-footer -->
+			</table>
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end stop-server-footer -->
+
+
+
+<!--
+     _     _         ___ _         _           
+  _ | |___(_)_ _    / __| |_  _ __| |_ ___ _ _ 
+ | || / _ \ | ' \  | (__| | || (_-<  _/ -_) '_|
+  \__/\___/_|_||_|  \___|_|\_,_/__/\__\___|_|  
+                                               
+-->
+
+
+<!-- start join-anvil-header -->
+<table>
+	<tr>
+		<td class="highlight_good_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			#!string!message_0189!#<br />
+			#!string!message_0188!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			#!string!message_0179!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			<table class="hidden_table" width="100%">
+<!-- end join-anvil-header -->
+
+
+<!-- start join-anvil-footer -->
+			</table>
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end join-anvil-footer -->
+
+
+
+<!--
+  ___            _      _     _         ___ _         _           
+ |   \ _  _ __ _| |  _ | |___(_)_ _    / __| |_  _ __| |_ ___ _ _ 
+ | |) | || / _` | | | || / _ \ | ' \  | (__| | || (_-<  _/ -_) '_|
+ |___/ \_,_\__,_|_|  \__/\___/_|_||_|  \___|_|\_,_/__/\__\___|_|  
+                                                                  
+-->
+
+
+<!-- start dual-join-anvil-header -->
+<table>
+	<tr>
+		<td>
+			<span class="highlight_good_bold">#!replace!title!#</span><br />
+			#!string!message_0188!#<br />
+			#!string!message_0189!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			#!string!message_0179!#<br />
+			<span class="highlight_ready_bold">#!string!row_0032!#</span>: #!string!message_0191!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			<table class="hidden_table" width="100%">
+<!-- end dual-join-anvil-header -->
+
+
+<!-- start dual-join-anvil-output -->
+				<tr>
+					<td style="border: 1px solid white;" align="right">
+						#!replace!node!#
+					</td>
+					<td style="border: 1px solid white;" class="fixed_width">
+						#!replace!message!#
+					</td>
+					<td style="border: 1px solid white;" class="fixed_width" align="left">
+						#!replace!status!#
+					</td>
+				</tr>
+<!-- end dual-join-anvil-output -->
+
+
+<!-- start dual-join-anvil-footer -->
+			</table>
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end dual-join-anvil-footer -->
+
+
+
+<!--
+  ___                  ___   __  __   ___                      
+ | __|__ _ _ __ ___   / _ \ / _|/ _| / __| ___ _ ___ _____ _ _ 
+ | _/ _ \ '_/ _/ -_) | (_) |  _|  _| \__ \/ -_) '_\ V / -_) '_|
+ |_|\___/_| \__\___|  \___/|_| |_|   |___/\___|_|  \_/\___|_|  
+                                                               
+-->
+
+
+<!-- start force-off-server-header -->
+<table>
+	<tr>
+		<td class="highlight_bad_bold">
+			#!replace!title!#<br />
+			#!string!message_0188!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			#!string!message_0179!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			<table class="hidden_table" width="100%">
+<!-- end force-off-server-header -->
+
+
+<!-- start force-off-server-footer -->
+			</table>
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			#!string!message_0193!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end force-off-server-footer -->
+
+
+
+<!--
+  ___      _     _         ___                      
+ |   \ ___| |___| |_ ___  / __| ___ _ ___ _____ _ _ 
+ | |) / -_) / -_)  _/ -_) \__ \/ -_) '_\ V / -_) '_|
+ |___/\___|_\___|\__\___| |___/\___|_|  \_/\___|_|  
+                                                    
+-->
+
+
+<!-- start delete-server-header -->
+<table>
+	<tr>
+		<td class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+<!-- end delete-server-header -->
+
+
+<!-- start delete-server-start -->
+	<tr>
+		<td>
+			<br />
+			#!string!title_0058!#<br />
+			<i>#!string!message_0106!#</i><br />
+			#!string!message_0107!#<br />
+<!-- end delete-server-start -->
+
+
+<!-- start delete-server-bad-exit-code -->
+			</br >
+			<span class="highlight_bad"><b>#!string!row_0096!#</b></span> #!string!message_0068!#<br />
+			#!replace!error!#<br />
+			#!string!brand_0011!#<br />
+			<br />
+<!-- end delete-server-bad-exit-code -->
+
+
+<!-- start delete-server-start-footer -->
+			<br />
+		</td>
+	</tr>
+<!-- end delete-server-start-footer -->
+
+
+<!-- start delete-server-force-off-header -->
+	<tr>
+		<td>
+			<br />
+			#!string!title_0059!#
+			<br />
+<!-- end delete-server-force-off-header -->
+
+
+<!-- start delete-server-force-off-footer -->
+			<br />
+		</td>
+	</tr>
+<!-- end delete-server-force-off-footer -->
+
+
+<!-- start delete-server-remove-lv-header -->
+	<tr>
+		<td>
+			<br />
+			#!string!title_0060!#<br />
+			<br />
+<!-- end delete-server-remove-lv-header -->
+
+
+<!-- start delete-server-success -->
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_good">#!string!row_0083!#</span>: #!string!message_0205!#<br />
+		</td>
+	</tr>
+<!-- end delete-server-success -->
+
+
+<!-- start delete-server-abort-reason -->
+	<tr>
+		<td>
+			#!replace!abort_reason!#
+		</td>
+	</tr>
+<!-- end delete-server-abort-reason -->
+
+
+<!-- start delete-server-footer -->
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end delete-server-footer -->
+
+
+
+<!--
+  ___                         __  __   _  _         _     
+ | _ \_____ __ _____ _ _ ___ / _|/ _| | \| |___  __| |___ 
+ |  _/ _ \ V  V / -_) '_/ _ \  _|  _| | .` / _ \/ _` / -_)
+ |_| \___/\_/\_/\___|_| \___/_| |_|   |_|\_\___/\__,_\___|
+                                                          
+-->
+
+
+<!-- start poweroff-node-header -->
+<table>
+	<tr>
+		<td class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			<table class="hidden_table" width="100%">
+<!-- end poweroff-node-header -->
+
+
+<!-- start poweroff-node-footer -->
+			</table>
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end poweroff-node-footer -->
+
+
+
+<!--
+  ___            _   ___           _   
+ |   \ _  _ __ _| | | _ ) ___  ___| |_ 
+ | |) | || / _` | | | _ \/ _ \/ _ \  _|
+ |___/ \_,_\__,_|_| |___/\___/\___/\__|
+                                       
+-->
+
+
+<!-- start dual-boot-header -->
+<table>
+	<tr>
+		<td class="highlight_ready_bold">
+			#!string!title_0063!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			#!replace!message!#<br />
+			#!string!message_0221!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			<table class="hidden_table" width="100%">
+<!-- end dual-boot-header -->
+
+
+<!-- start dual-boot-footer -->
+			</table>
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end dual-boot-footer -->
+
+
+<!--
+  ___                               _  _         _     
+ | _ \_____ __ _____ _ _ ___ _ _   | \| |___  __| |___ 
+ |  _/ _ \ V  V / -_) '_/ _ \ ' \  | .` / _ \/ _` / -_)
+ |_| \___/\_/\_/\___|_| \___/_||_| |_|\_\___/\__,_\___|
+                                                       
+-->
+
+
+<!-- start poweron-node-header -->
+<table>
+	<tr>
+		<td class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			#!replace!message!#<br />
+			#!string!message_0223!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="fixed_width">
+			<br />
+<!-- end poweron-node-header -->
+
+
+<!-- start poweron-node-close-tr -->
+			<br />
+		</td>
+	</tr>
+<!-- end poweron-node-close-tr -->
+
+
+<!-- start poweron-node-failed -->
+			<br />
+		</td>
+	</tr>
+</table>
+<br />
+<table>
+	<tr>
+		<td class="highlight_bad_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			#!string!message_0229!#<br />
+			#!string!message_0230!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+<!-- end poweron-node-failed -->
+
+
+<!-- start poweron-node-footer -->
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end poweron-node-footer -->
+
+
+
+<!--
+  ___                  _  _         _     
+ | __|__ _ _  __ ___  | \| |___  __| |___ 
+ | _/ -_) ' \/ _/ -_) | .` / _ \/ _` / -_)
+ |_|\___|_||_\__\___| |_|\_\___/\__,_\___|
+                                          
+-->
+
+
+<!-- start fence-node-header -->
+<table>
+	<tr>
+		<td class="highlight_warning_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			#!replace!message!#<br />
+		</td>
+	</tr>
+<!-- end fence-node-header -->
+
+
+<!-- start fence-node-output-header -->
+	<tr>
+		<td class="fixed_width">
+			<br />
+<!-- end fence-node-output-header -->
+
+
+<!-- start fence-node-output-footer -->
+			<br />
+		</td>
+	</tr>
+<!-- end fence-node-output-footer -->
+
+
+<!-- start fence-node-message -->
+	<tr>
+		<td>
+			#!replace!message!#<br />
+		</td>
+	</tr>
+<!-- end fence-node-message -->
+
+
+<!-- start fence-node-unfence-header -->
+	<tr>
+		<td class="fixed_width">
+			<br />
+<!-- end fence-node-unfence-header -->
+
+
+<!-- start fence-node-unfence-footer -->
+			<br />
+		</td>
+	</tr>
+<!-- end fence-node-unfence-footer -->
+
+
+<!-- start fence-node-footer -->
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end fence-node-footer -->
+
+
+
+<!--
+ __      ___ _   _       _                   _  _         _     
+ \ \    / (_) |_| |_  __| |_ _ __ ___ __ __ | \| |___  __| |___ 
+  \ \/\/ /| |  _| ' \/ _` | '_/ _` \ V  V / | .` / _ \/ _` / -_)
+   \_/\_/ |_|\__|_||_\__,_|_| \__,_|\_/\_/  |_|\_\___/\__,_\___|
+                                                                
+-->
+
+
+<!-- start withdraw-node-header -->
+<table>
+	<tr>
+		<td class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			#!string!message_0238!#.<br />
+			#!string!message_0188!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			<table class="hidden_table" width="100%">
+<!-- end withdraw-node-header -->
+
+
+<!-- start withdraw-node-close-output -->
+			</table>
+			<br />
+		</td>
+	</tr>
+<!-- end withdraw-node-close-output -->
+
+
+<!-- start withdraw-node-resource-manager-stopped -->
+	<tr>
+		<td>
+			<br />
+			#!string!message_0240!#<br />
+			#!string!message_0241!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			<table class="hidden_table" width="100%">
+<!-- end withdraw-node-resource-manager-stopped -->
+
+
+<!-- start withdraw-node-membership-withdrawl-failed -->
+	<tr>
+		<td class="highlight_bad">
+			<br />
+			#!string!message_0242!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			<b>#!string!message_0243!#</b><br />
+			#!string!message_0244!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_ready">
+			<br />
+			#!string!message_0245!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			<table class="hidden_table" width="100%">
+<!-- end withdraw-node-membership-withdrawl-failed -->
+
+
+<!-- start withdraw-node-membership-restarted-successfully -->
+	<tr>
+		<td class="highlight_ready">
+			<br />
+			#!string!message_0246!#<br />
+			<br />
+		</td>
+	</tr>
+<!-- end withdraw-node-membership-restarted-successfully -->
+
+
+<!-- start withdraw-node-membership-restarted-failed -->
+	<tr>
+		<td class="highlight_bad">
+			<br />
+			#!string!message_0247!#<br />
+			#!string!brand_0011!#
+			<br />
+		</td>
+	</tr>
+<!-- end withdraw-node-membership-restarted-failed -->
+
+
+<!-- start withdraw-node-resource-manager-failed-to-stop -->
+	<tr>
+		<td class="highlight_bad">
+			<br />
+			#!string!message_0248!#<br />
+			#!string!message_0243!#<br />
+			#!string!message_0244!#<br />
+			<br />
+		</td>
+	</tr>
+<!-- end withdraw-node-resource-manager-failed-to-stop -->
+
+
+<!-- start withdraw-node-footer -->
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end withdraw-node-footer -->
+
+
+<!-- start withdraw-node-aborted -->
+<table>
+	<tr>
+		<td>
+			<br />
+			<span class="highlight_bad"><b>#!string!title_0071!#</b></span>
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			#!string!message_0185!#<br />
+			#!string!message_0186!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end withdraw-node-aborted -->
+
+
+
+<!--
+  ___                          ___                               __  __                             
+ | _ \___ __ _____ _____ _ _  | _ \___ ___ ___ _  _ _ _ __ ___  |  \/  |__ _ _ _  __ _ __ _ ___ _ _ 
+ |   / -_) _/ _ \ V / -_) '_| |   / -_|_-</ _ \ || | '_/ _/ -_) | |\/| / _` | ' \/ _` / _` / -_) '_|
+ |_|_\___\__\___/\_/\___|_|   |_|_\___/__/\___/\_,_|_| \__\___| |_|  |_\__,_|_||_\__,_\__, \___|_|  
+                                                                                      |___/         
+-->
+
+
+<!-- start recover-resource-manager-header -->
+	<tr>
+		<td>
+			#!string!title_0072!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="fixed_width">
+			<br />
+<!-- end recover-resource-manager-header -->
+
+
+<!-- start recover-resource-manager-output-footer -->
+			<br />
+		</td>
+	</tr>
+<!-- end recover-resource-manager-output-footer -->
+
+
+<!-- start recover-resource-manager-successful -->
+	<tr>
+		<td class="highlight_good">
+			#!string!message_0250!#<br />
+		</td>
+	</tr>
+<!-- end recover-resource-manager-successful -->
+
+
+<!-- start recover-resource-manager-check-storage -->
+	<tr>
+		<td>
+			#!string!message_0251!#<br />
+			#!string!message_0252!#<br />
+		</td>
+	</tr>
+<!-- end recover-resource-manager-check-storage -->
+
+
+<!-- start recover-resource-manager-cycle-storage-service -->
+	<tr>
+		<td class="highlight_bad">
+			#!replace!failed!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			#!replace!cycle!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			<table class="hidden_table" width="100%">
+<!-- end recover-resource-manager-cycle-storage-service -->
+
+
+<!-- start recover-resource-manager-close-output -->
+			</table>
+			<br />
+		</td>
+	</tr>
+<!-- end recover-resource-manager-close-output -->
+
+
+<!-- start recover-resource-manager-storage-service-stopped -->
+	<tr>
+		<td class="highlight_ready">
+			#!replace!stopped!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			#!string!message_0256!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			<table class="hidden_table" width="100%">
+<!-- end recover-resource-manager-storage-service-stopped -->
+
+
+<!-- start recover-resource-manager-storage-service-recovered -->
+	<tr>
+		<td class="highlight_ready">
+			#!replace!restarted!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good">
+			#!string!message_0258!#<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			#!replace!advice!#<br />
+			#!string!message_0260!#<br />
+			#!string!message_0261!#<br />
+		</td>
+	</tr>
+<!-- end recover-resource-manager-storage-service-recovered -->
+
+
+<!-- start recover-resource-manager-storage-service-unrecovered -->
+	<tr>
+		<td class="highlight_bad">
+			<br />
+			#!replace!failed!#<br />
+			#!string!brand_0011!#
+			<br />
+		</td>
+	</tr>
+<!-- end recover-resource-manager-storage-service-unrecovered -->
+
+
+<!-- start recover-resource-manager-failed-to-disable -->
+	<tr>
+		<td class="highlight_bad">
+			<br />
+			#!replace!failed!#<br />
+			#!string!brand_0011!#
+			<br />
+		</td>
+	</tr>
+<!-- end recover-resource-manager-failed-to-disable -->
+
+
+<!-- start recover-resource-manager-abort-storage-recovery -->
+	<tr>
+		<td class="highlight_good">
+			#!replace!abort!#<br />
+			#!string!message_0265!#<br />
+		</td>
+	</tr>
+<!-- end recover-resource-manager-abort-storage-recovery -->
+
+
+<!-- start recover-resource-manager-cant-find-storage -->
+	<tr>
+		<td class="highlight_bad">
+			<br />
+			#!string!message_0266!#<br />
+			#!string!brand_0011!#
+			<br />
+		</td>
+	</tr>
+<!-- end recover-resource-manager-cant-find-storage -->
+
+
+<!-- start recover-resource-manager-failed -->
+	<tr>
+		<td class="highlight_bad">
+			<br />
+			#!string!message_0267!#<br />
+			#!string!brand_0011!#
+			<br />
+		</td>
+	</tr>
+<!-- end recover-resource-manager-failed -->
+
+
+
+<!--
+   _____             __ _                      _   _                 
+  / ____|           / _(_)                    | | (_)                
+ | |     ___  _ __ | |_ _ _ __ _ __ ___   __ _| |_ _  ___  _ __  ___ 
+ | |    / _ \| '_ \|  _| | '__| '_ ` _ \ / _` | __| |/ _ \| '_ \/ __|
+ | |___| (_) | | | | | | | |  | | | | | | (_| | |_| | (_) | | | \__ \
+  \_____\___/|_| |_|_| |_|_|  |_| |_| |_|\__,_|\__|_|\___/|_| |_|___/
+
+-->
+
+
+
+<!--
+   ___           __ _            __      ___ _   _       _                 _ 
+  / __|___ _ _  / _(_)_ _ _ __   \ \    / (_) |_| |_  __| |_ _ __ ___ __ _| |
+ | (__/ _ \ ' \|  _| | '_| '  \   \ \/\/ /| |  _| ' \/ _` | '_/ _` \ V  V / |
+  \___\___/_||_|_| |_|_| |_|_|_|   \_/\_/ |_|\__|_||_\__,_|_| \__,_|\_/\_/|_|
+                                                                             
+-->
+
+
+<!-- start confirm-withdrawl -->
+<table>
+	<tr>
+		<td colspan="2" class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_warning"><b>#!string!row_0120!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			#!string!message_0146!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="align_right"><a href="#!replace!confirm_url!#"><b>#!string!button_0004!#</b></a></div>
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end confirm-withdrawl -->
+
+
+
+<!--
+   ___           __ _                _     _      
+  / __|___ _ _  / _(_)_ _ _ __    _ | |___(_)_ _  
+ | (__/ _ \ ' \|  _| | '_| '  \  | || / _ \ | ' \ 
+  \___\___/_||_|_| |_|_| |_|_|_|  \__/\___/_|_||_|
+                                                  
+-->
+
+
+<!-- start confirm-join-anvil -->
+<table>
+	<tr>
+		<td colspan="2" class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_good"><b>#!string!row_0032!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			#!string!message_0149!#<br />
+			#!string!message_0148!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="align_right"><a href="#!replace!confirm_url!#"><b>#!string!button_0004!#</b></a></div>
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end confirm-join-anvil -->
+
+
+
+<!--
+   ___           __ _             ___            _      _     _      
+  / __|___ _ _  / _(_)_ _ _ __   |   \ _  _ __ _| |  _ | |___(_)_ _  
+ | (__/ _ \ ' \|  _| | '_| '  \  | |) | || / _` | | | || / _ \ | ' \ 
+  \___\___/_||_|_| |_|_| |_|_|_| |___/ \_,_\__,_|_|  \__/\___/_|_||_|
+                                                                     
+-->
+
+
+<!-- start confirm-dual-join-anvil -->
+<table>
+	<tr>
+		<td colspan="2" class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_good"><b>#!string!row_0032!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			#!string!message_0148!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="align_right"><a href="#!replace!confirm_url!#"><b>#!string!button_0004!#</b></a></div>
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end confirm-dual-join-anvil -->
+
+
+
+<!--
+   ___           __ _             ___                
+  / __|___ _ _  / _(_)_ _ _ __   | __|__ _ _  __ ___ 
+ | (__/ _ \ ' \|  _| | '_| '  \  | _/ -_) ' \/ _/ -_)
+  \___\___/_||_|_| |_|_| |_|_|_| |_|\___|_||_\__\___|
+                                                     
+-->
+
+
+<!-- start confirm-fence-node -->
+<table>
+	<tr>
+		<td colspan="2" class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+			<span class="highlight_dangerous"><b>#!string!row_0121!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_warning"><b>#!string!row_0032!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!string!message_0152!#<br >
+			#!string!message_0153!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_good"><b>#!string!row_0122!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!string!message_0154!#<br />
+			#!string!message_0155!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="align_right"><a href="#!replace!confirm_url!#"><b>#!string!button_0004!#</b></a></div>
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end confirm-fence-node -->
+
+
+
+<!--
+   ___           __ _             ___                         __  __ 
+  / __|___ _ _  / _(_)_ _ _ __   | _ \_____ __ _____ _ _ ___ / _|/ _|
+ | (__/ _ \ ' \|  _| | '_| '  \  |  _/ _ \ V  V / -_) '_/ _ \  _|  _|
+  \___\___/_||_|_| |_|_| |_|_|_| |_| \___/\_/\_/\___|_| \___/_| |_|  
+                                                                     
+-->
+
+
+<!-- start confirm-poweroff-node -->
+<table>
+	<tr>
+		<td colspan="2" class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_good"><b>#!string!row_0032!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			#!string!message_0157!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_warning"><b>#!string!row_0044!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!string!message_0158!#<br />
+			#!string!message_0159!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="align_right"><a href="#!replace!confirm_url!#"><b>#!string!button_0004!#</b></a></div>
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end confirm-poweroff-node -->
+
+
+
+<!--
+   ___           __ _             ___                             
+  / __|___ _ _  / _(_)_ _ _ __   | _ \_____ __ _____ _ _ ___ _ _  
+ | (__/ _ \ ' \|  _| | '_| '  \  |  _/ _ \ V  V / -_) '_/ _ \ ' \ 
+  \___\___/_||_|_| |_|_| |_|_|_| |_| \___/\_/\_/\___|_| \___/_||_|
+                                                                  
+-->
+
+
+<!-- start confirm-poweron-node -->
+<table>
+	<tr>
+		<td colspan="2" class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_good"><b>#!string!row_0032!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			#!string!message_0148!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="align_right"><a href="#!replace!confirm_url!#"><b>#!string!button_0004!#</b></a></div>
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end confirm-poweron-node -->
+
+
+
+<!--
+   ___           __ _             ___            _   ___                             
+  / __|___ _ _  / _(_)_ _ _ __   |   \ _  _ __ _| | | _ \_____ __ _____ _ _ ___ _ _  
+ | (__/ _ \ ' \|  _| | '_| '  \  | |) | || / _` | | |  _/ _ \ V  V / -_) '_/ _ \ ' \ 
+  \___\___/_||_|_| |_|_| |_|_|_| |___/ \_,_\__,_|_| |_| \___/\_/\_/\___|_| \___/_||_|
+                                                                                     
+-->
+
+
+<!-- start confirm-dual-poweron-node -->
+<table>
+	<tr>
+		<td colspan="2">
+			<span class="highlight_ready"><b>#!string!title_0041!#</b></span>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_good"><b>#!string!row_0032!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			#!string!message_0162!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="align_right"><a href="#!replace!confirm_url!#"><b>#!string!button_0004!#</b></a></div>
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end confirm-dual-poweron-node -->
+
+
+
+<!--
+   ___           __ _             ___ _            _     ___                      
+  / __|___ _ _  / _(_)_ _ _ __   / __| |_ __ _ _ _| |_  / __| ___ _ ___ _____ _ _ 
+ | (__/ _ \ ' \|  _| | '_| '  \  \__ \  _/ _` | '_|  _| \__ \/ -_) '_\ V / -_) '_|
+  \___\___/_||_|_| |_|_| |_|_|_| |___/\__\__,_|_|  \__| |___/\___|_|  \_/\___|_|  
+                                                                                  
+-->
+
+
+<!-- start confirm-start-server -->
+<table>
+	<tr>
+		<td colspan="2" class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_good_bold">
+			#!string!row_0032!#
+		</td>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			#!string!message_0164!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="align_right"><a href="#!replace!confirm_url!#"><b>#!string!button_0004!#</b></a></div>
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end confirm-start-server -->
+
+
+
+<!--
+   ___           __ _             ___ _              ___                      
+  / __|___ _ _  / _(_)_ _ _ __   / __| |_ ___ _ __  / __| ___ _ ___ _____ _ _ 
+ | (__/ _ \ ' \|  _| | '_| '  \  \__ \  _/ _ \ '_ \ \__ \/ -_) '_\ V / -_) '_|
+  \___\___/_||_|_| |_|_| |_|_|_| |___/\__\___/ .__/ |___/\___|_|  \_/\___|_|  
+                                             |_|                              
+-->
+
+
+<!-- start confirm-stop-server -->
+<table>
+	<tr>
+		<td colspan="2" class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+			<span class="highlight_warning"><b>#!string!row_0123!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_ready"><b>#!string!row_0032!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!replace!warning!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_good"><b>#!string!row_0124!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!replace!precaution!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="align_right"><a href="#!replace!confirm_url!#"><b>#!string!button_0004!#</b></a></div>
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end confirm-stop-server -->
+
+
+
+<!--
+   ___           __ _             ___                  ___   __  __ 
+  / __|___ _ _  / _(_)_ _ _ __   | __|__ _ _ __ ___   / _ \ / _|/ _|
+ | (__/ _ \ ' \|  _| | '_| '  \  | _/ _ \ '_/ _/ -_) | (_) |  _|  _|
+  \___\___/_||_|_| |_|_| |_|_|_| |_|\___/_| \__\___|  \___/|_| |_|  
+                                                                    
+-->
+
+
+<!-- start confirm-force-off-server -->
+<table>
+	<tr>
+		<td colspan="2" class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+			<span class="highlight_dangerous"><b>#!string!row_0121!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_warning"><b>#!string!row_0032!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!string!message_0169!#<br />
+			#!string!message_0170!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_good"><b>#!string!row_0122!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!string!message_0171!#<br />
+			#!string!message_0155!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="align_right"><a href="#!replace!confirm_url!#"><b>#!string!button_0004!#</b></a></div>
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end confirm-force-off-server -->
+
+
+
+<!--
+   ___           __ _             ___      _     _         ___                      
+  / __|___ _ _  / _(_)_ _ _ __   |   \ ___| |___| |_ ___  / __| ___ _ ___ _____ _ _ 
+ | (__/ _ \ ' \|  _| | '_| '  \  | |) / -_) / -_)  _/ -_) \__ \/ -_) '_\ V / -_) '_|
+  \___\___/_||_|_| |_|_| |_|_|_| |___/\___|_\___|\__\___| |___/\___|_|  \_/\___|_|  
+                                                                                    
+-->
+
+
+<!-- start confirm-delete-server -->
+<table>
+	<tr>
+		<td colspan="2" class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+			<span class="highlight_dangerous"><b>#!string!row_0121!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_warning"><b>#!string!row_0044!#</b></span>
+		</td>
+		<td>
+			<br />
+			<u><b>#!string!message_0172!#</b></u><br />
+			<br />
+			#!string!message_0173!#<br />
+			#!string!message_0174!#<br />
+			#!string!message_0175!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_good"><b>#!string!row_0032!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!string!message_0176!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="align_right"><a href="#!replace!confirm_url!#"><b>#!string!button_0004!#</b></a></div>
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end confirm-delete-server -->
+
+
+
+<!--
+   ___           __ _             __  __ _               _         ___                      
+  / __|___ _ _  / _(_)_ _ _ __   |  \/  (_)__ _ _ _ __ _| |_ ___  / __| ___ _ ___ _____ _ _ 
+ | (__/ _ \ ' \|  _| | '_| '  \  | |\/| | / _` | '_/ _` |  _/ -_) \__ \/ -_) '_\ V / -_) '_|
+  \___\___/_||_|_| |_|_| |_|_|_| |_|  |_|_\__, |_| \__,_|\__\___| |___/\___|_|  \_/\___|_|  
+                                          |___/                                             
+-->
+
+
+<!-- start confirm-migrate-server -->
+<table>
+	<tr>
+		<td colspan="2" class="highlight_ready_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="highlight_good"><b>#!string!row_0032!#</b></span>
+		</td>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div class="align_right"><a href="#!replace!confirm_url!#"><b>#!string!button_0004!#</b></a></div>
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end confirm-migrate-server -->
+
+
+
+<!--
+           _           _       
+     /\   | |         | |      
+    /  \  | | ___ _ __| |_ ___ 
+   / /\ \ | |/ _ \ '__| __/ __|
+  / ____ \| |  __/ |  | |_\__ \
+ /_/    \_\_|\___|_|   \__|___/
+                               
+-->
+
+
+
+<!--
+  _  _         _        ___   __  __ 
+ | \| |___  __| |___   / _ \ / _|/ _|
+ | .` / _ \/ _` / -_) | (_) |  _|  _|
+ |_|\_\___/\__,_\___|  \___/|_| |_|  
+
+-->
+
+
+<!-- start display-details-nodes-off -->
+<script type="text/javascript">
+NProgress.inc();
+</script>
+
+<div class="alert alert-info" role="alert"><strong>#!string!title_0073!#</strong> - #!string!state_0004!#<br>#!string!message_0268!#</div>
+
+<!-- Enable this to have the page refresh automatically -->
+<!-- <meta http-equiv="refresh" content="30"> -->
+<!-- end display-details-nodes-off -->
+
+
+
+<!--
+  _  _         _       _   _                      _         _    _     
+ | \| |___  __| |___  | | | |_ _  _ _ ___ __ _ __| |_  __ _| |__| |___ 
+ | .` / _ \/ _` / -_) | |_| | ' \| '_/ -_) _` / _| ' \/ _` | '_ \ / -_)
+ |_|\_\___/\__,_\___|  \___/|_||_|_| \___\__,_\__|_||_\__,_|_.__/_\___|
+
+-->
+
+
+
+<!-- start display-details-nodes-unreachable -->
+<script type="text/javascript">
+NProgress.inc();
+</script>
+
+<div class="alert alert-info" role="alert"><strong>#!string!title_0073!#</strong> - #!string!state_0004!# / #!string!message_0269!#</div>
+<!-- end display-details-nodes-unreachable -->
+
+
+
+<!--
+  ___ _                           _  _     _     ___             _      
+ / __| |_ ___ _ _ __ _ __ _ ___  | \| |___| |_  | _ \___ __ _ __| |_  _ 
+ \__ \  _/ _ \ '_/ _` / _` / -_) | .` / _ \  _| |   / -_) _` / _` | || |
+ |___/\__\___/_| \__,_\__, \___| |_|\_\___/\__| |_|_\___\__,_\__,_|\_, |
+                      |___/                                        |__/ 
+-->
+
+
+<!-- start storage-not-ready -->
+<table>
+	<tr>
+		<td class="highlight_warning_bold">
+			#!string!row_0085!#
+		</td>
+		<td>
+			#!string!message_0075!#<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end storage-not-ready -->
+
+
+
+<!--
+  _   _          _      _         ___       __   ___          _ 
+ | | | |_ __  __| |__ _| |_ ___  |   \ ___ / _| | _ ) __ _ __| |
+ | |_| | '_ \/ _` / _` |  _/ -_) | |) / -_)  _| | _ \/ _` / _` |
+  \___/| .__/\__,_\__,_|\__\___| |___/\___|_|   |___/\__,_\__,_|
+       |_|                                                      
+-->
+
+
+<!-- start update-definition-failed-bad-exit-code -->
+<table>
+	<tr>
+		<td class="highlight_warning_bold">
+			#!string!row_0044!#
+		</td>
+		<td>
+			#!string!message_0068!#<br />
+			#!replace!error!#<br />
+			#!string!brand_0011!#<br />
+			<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end update-definition-failed-bad-exit-code -->
+
+
+
+<!--
+  _  _       ___ _       _   _____      __
+ | \| |___  | _ (_)__ __(_) | _ \ \    / /
+ | .` / _ \ |   / / _/ _| | |  _/\ \/\/ / 
+ |_|\_\___/ |_|_\_\__\__|_| |_|   \_/\_/  
+                                          
+-->
+
+
+<!-- start add-server-to-anvil-no-ricci-password -->
+<table>
+	<tr>
+		<td class="highlight_bad_bold">
+			#!string!row_0090!#
+		</td>
+		<td>
+			#!string!message_0087!#
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_warning">
+			#!string!row_0091!#
+		</td>
+		<td>
+			#!string!message_0088!#
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end add-server-to-anvil-no-ricci-password -->
+
+
+
+<!--
+  _  _       ___     _ _                   ___                 _      
+ | \| |___  | __|_ _(_) |_____ _____ _ _  |   \ ___ _ __  __ _(_)_ _  
+ | .` / _ \ | _/ _` | | / _ \ V / -_) '_| | |) / _ \ '  \/ _` | | ' \ 
+ |_|\_\___/ |_|\__,_|_|_\___/\_/\___|_|   |___/\___/_|_|_\__,_|_|_||_|
+                                                                      
+-->
+
+
+<!-- start add-server-to-anvil-no-failover-domain -->
+<table>
+	<tr>
+		<td colspan="2">
+			<b>#!string!title_0120!#</b>
+		</td>
+	</tr>
+	<tr>
+		<td class="highlight_bad_bold">
+			#!string!state_0008!#
+		</td>
+		<td>
+			<br />
+			#!string!message_0089!#<br />
+			<br />
+			#!string!explain_0022!#<br />
+			#!string!brand_0011!#<br />
+			<br />
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end add-server-to-anvil-no-failover-domain -->
+
+
+
+<!--
+
+  ___                        __   ____  __  __      __                   ___       __ 
+ | _ \___ _ __  _____ _____  \ \ / /  \/  | \ \    / / _ ___ _ _  __ _  |   \ ___ / _|
+ |   / -_) '  \/ _ \ V / -_)  \ V /| |\/| |  \ \/\/ / '_/ _ \ ' \/ _` | | |) / -_)  _|
+ |_|_\___|_|_|_\___/\_/\___|   \_/ |_|  |_|   \_/\_/|_| \___/_||_\__, | |___/\___|_|  
+                                                                 |___/                
+-->
+
+
+<!-- start remove-vm-definition-wrong-definition-file -->
+			<br />
+			<span class="highlight_bad"><b><u>#!string!row_0126!#</u></b></span> #!string!message_0206!#<br />
+			#!string!message_0207!#<br />
+			#!string!message_0208!#<br />
+			#!string!brand_0011!#<br />
+			<br />
+<!-- end remove-vm-definition-wrong-definition-file -->
+
+
+
+<!--
+
+  ___                        __   ____  __   ___       __   ___     _ _        _ 
+ | _ \___ _ __  _____ _____  \ \ / /  \/  | |   \ ___ / _| | __|_ _(_) |___ __| |
+ |   / -_) '  \/ _ \ V / -_)  \ V /| |\/| | | |) / -_)  _| | _/ _` | | / -_) _` |
+ |_|_\___|_|_|_\___/\_/\___|   \_/ |_|  |_| |___/\___|_|   |_|\__,_|_|_\___\__,_|
+                                                                                 
+-->
+
+
+<!-- start remove-vm-definition-failed -->
+			<br />
+			<span class="highlight_bad"><b>#!string!row_0044!#</b></span>! #!string!message_0068!#<br />
+			#!string!message_0210!#<br />
+			#!string!brand_0011!#<br />
+			<br />
+<!-- end remove-vm-definition-failed -->
+
+
+
+<!--
+    _          _    _           ___ _ _       ___     _ _        _ 
+   /_\  _ _ __| |_ (_)_ _____  | __(_) |___  | __|_ _(_) |___ __| |
+  / _ \| '_/ _| ' \| \ V / -_) | _|| | / -_) | _/ _` | | / -_) _` |
+ /_/ \_\_| \__|_||_|_|\_/\___| |_| |_|_\___| |_|\__,_|_|_\___\__,_|
+                                                                   
+-->
+
+
+<!-- start archive-file-failed -->
+			<br />
+			<span class="highlight_bad"><b>#!string!row_0044!#</b></span>! #!string!message_0068!#<br />
+			#!string!message_0212!#<br />
+			#!string!brand_0011!#<br />
+			<br />
+<!-- end archive-file-failed -->
+
+
+
+<!--
+  _____                  _     _  _     _     ___             _      
+ |_   _|_ _ _ _ __ _ ___| |_  | \| |___| |_  | _ \___ __ _ __| |_  _ 
+   | |/ _` | '_/ _` / -_)  _| | .` / _ \  _| |   / -_) _` / _` | || |
+   |_|\__,_|_| \__, \___|\__| |_|\_\___/\__| |_|_\___\__,_\__,_|\_, |
+               |___/                                            |__/ 
+-->
+
+<!-- start migrate-server-target-not-ready -->
+<table>
+	<tr>
+		<td>
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			#!string!message_0185!#<br />
+			#!string!message_0186!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end migrate-server-target-not-ready -->
+
+
+
+<!--
+     _     _          _   _             _          _ 
+  _ | |___(_)_ _     /_\ | |__  ___ _ _| |_ ___ __| |
+ | || / _ \ | ' \   / _ \| '_ \/ _ \ '_|  _/ -_) _` |
+  \__/\___/_|_||_| /_/ \_\_.__/\___/_|  \__\___\__,_|
+                                                     
+-->
+
+
+<!-- start join-anvil-aborted -->
+<table>
+	<tr>
+		<td class="highlight_bad_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			It appears that the node has already joined the #!string!brand_0003!#.<br />
+			#!string!message_0186!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end join-anvil-aborted -->
+
+
+
+<!--
+  ___            _      _     _          _   _             _          _ 
+ |   \ _  _ __ _| |  _ | |___(_)_ _     /_\ | |__  ___ _ _| |_ ___ __| |
+ | |) | || / _` | | | || / _ \ | ' \   / _ \| '_ \/ _ \ '_|  _/ -_) _` |
+ |___/ \_,_\__,_|_|  \__/\___/_|_||_| /_/ \_\_.__/\___/_|  \__\___\__,_|
+                                                                        
+-->
+
+
+<!-- start dual-join-anvil-aborted-header -->
+<table>
+	<tr>
+		<td class="highlight_bad_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+<!-- end dual-join-anvil-aborted-header -->
+
+
+<!-- start dual-join-anvil-aborted-footer -->
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end dual-join-anvil-aborted-footer -->
+
+
+
+<!--
+  ___                         __  __   _  _         _         _   _             _          _ 
+ | _ \_____ __ _____ _ _ ___ / _|/ _| | \| |___  __| |___    /_\ | |__  ___ _ _| |_ ___ __| |
+ |  _/ _ \ V  V / -_) '_/ _ \  _|  _| | .` / _ \/ _` / -_)  / _ \| '_ \/ _ \ '_|  _/ -_) _` |
+ |_| \___/\_/\_/\___|_| \___/_| |_|   |_|\_\___/\__,_\___| /_/ \_\_.__/\___/_|  \__\___\__,_|
+
+-->
+
+
+<!-- start poweroff-node-aborted -->
+<table>
+	<tr>
+		<td class="highlight_bad_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			#!string!message_0185!#<br />
+			#!string!message_0186!#<br />
+			<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end poweroff-node-aborted -->
+
+
+
+<!--
+  ___            _   ___           _       _   _             _          _ 
+ |   \ _  _ __ _| | | _ ) ___  ___| |_    /_\ | |__  ___ _ _| |_ ___ __| |
+ | |) | || / _` | | | _ \/ _ \/ _ \  _|  / _ \| '_ \/ _ \ '_|  _/ -_) _` |
+ |___/ \_,_\__,_|_| |___/\___/\___/\__| /_/ \_\_.__/\___/_|  \__\___\__,_|
+
+-->
+
+
+<!-- start dual-boot-aborted-header -->
+<table>
+	<tr>
+		<td class="highlight_bad_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+<!-- end dual-boot-aborted-header -->
+
+
+<!-- start dual-boot-abort-reason -->
+	<tr>
+		<td>
+			<br />
+			#!replace!reason!#<br />
+			<br />
+		</td>
+	</tr>
+<!-- end dual-boot-abort-reason -->
+
+
+<!-- start dual-boot-aborted-footer -->
+	<tr>
+		<td>
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<br />
+<!-- end dual-boot-aborted-footer -->
+
+
+
+<!--
+  ___                               _  _         _         _   _             _          _ 
+ | _ \_____ __ _____ _ _ ___ _ _   | \| |___  __| |___    /_\ | |__  ___ _ _| |_ ___ __| |
+ |  _/ _ \ V  V / -_) '_/ _ \ ' \  | .` / _ \/ _` / -_)  / _ \| '_ \/ _ \ '_|  _/ -_) _` |
+ |_| \___/\_/\_/\___|_| \___/_||_| |_|\_\___/\__,_\___| /_/ \_\_.__/\___/_|  \__\___\__,_|
+
+-->
+
+
+<!-- start poweron-node-aborted -->
+<table>
+	<tr>
+		<td class="highlight_bad_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<br />
+			#!replace!message!#<br />
+			<br />
+		</td>
+	</tr>
+<!-- end poweron-node-aborted -->
+
+
+
+<!--
+  ___                  _  _         _         _   _             _          _ 
+ | __|__ _ _  __ ___  | \| |___  __| |___    /_\ | |__  ___ _ _| |_ ___ __| |
+ | _/ -_) ' \/ _/ -_) | .` / _ \/ _` / -_)  / _ \| '_ \/ _ \ '_|  _/ -_) _` |
+ |_|\___|_||_\__\___| |_|\_\___/\__,_\___| /_/ \_\_.__/\___/_|  \__\___\__,_|
+
+-->
+
+
+<!-- start fence-node-aborted-header -->
+	<tr>
+		<td class="highlight_bad_bold">
+			#!replace!title!#
+		</td>
+	</tr>
+<!-- end fence-node-aborted-header -->
+
+
+<!-- start fence-node-abort-reason -->
+	<tr>
+		<td>
+			<br />
+			#!replace!reason!#<br />
+			<br />
+		</td>
+	</tr>
+<!-- end fence-node-abort-reason -->
