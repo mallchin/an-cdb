@@ -523,7 +523,8 @@ sub initialize_conf
 			language		=>	"en_CA",
 			html_lang		=>	"en",
 			#skin			=>	"linbit",
-			skin			=>	"alteeve",
+			#skin			=>	"alteeve",
+			skin			=>	"bootstrap3",
 			version			=>	"1.1.4",
 			log_level		=>	3,
 			use_24h			=>	1,			# Set to 0 for am/pm time, 1 for 24h time

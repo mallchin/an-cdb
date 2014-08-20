@@ -29,10 +29,10 @@ use IO::Handle;
 use Net::SSH2;
 
 # Email stuff
-use Email::Sender::Simple qw(sendmail);
-use Email::Sender::Transport::SMTP::TLS;
-use Try::Tiny;
-use Email::Simple::Creator;
+#use Email::Sender::Simple qw(sendmail);
+#use Email::Sender::Transport::SMTP::TLS;
+#use Try::Tiny;
+#use Email::Simple::Creator;
 
 # Setup for UTF-8 mode.
 binmode STDOUT, ":utf8:";
