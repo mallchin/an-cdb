@@ -1,5 +1,5 @@
-AN!CDB v1.1.4
-=============
+AN!CDB - Anvil! Cluster Dashboard
+=================================
 
   This program is a "Anvil! Dashboard" designed for simple management of the
 Anvil! High Availability Platform[1]. It is a simple, web-based application 
@@ -10,15 +10,24 @@ goal is to provide easy and reliable use of the Anvil! and the
 highly-available servers you install on it. It puts these advanced platforms
 within reach of small organizations with little to no in-house IT staff.
 
-  Fundamentally, the dashboard provides 3 main functions;
+  Fundamentally, the dashboard provides 3 main functions:
 
- > a. Node and Server management
- > b. Server provisioning, management and removal
- > c. A media library for OS install and driver disks
+  - Node and Server management
+  - Server provisioning, management and removal
+  - A media library for OS install and driver disks
 
+Installation
+------------
+
+  - Install RedHat Enterprise Linux 6.x (or a derivative)
+  - Download and extract the latest release
+  - Run ./an-cdb-installer.sh
+
+*Tested on CentOS-6.5-x86_64-minimal.iso*
 
 Online Documentation
 --------------------
+
 - https://alteeve.ca/w/AN!CDB
 
  
@@ -45,11 +54,11 @@ Server Provisioning and Removal
 -------------------------------
 
   The dashboard allows users to create new virtual servers on the cluster.
-Installation media can be added to the cluster in one of three ways;
+Installation media can be added to the cluster in one of three ways:
 
- > a. Create an image from a DVD or CD disc mounted in the dashboard server
- > b. Upload an ISO from the user's computer/tablet
- > c. Direct download to the cluster from a website or ftp site
+  - Create an image from a DVD or CD disc mounted in the dashboard server
+  - Upload an ISO from the user's computer/tablet
+  - Direct download to the cluster from a website or ftp site
 
   Once the media is on the cluster, users can use it to create a new virtual
 server. The user simply names the new Server, chooses the OS type from a drop-down

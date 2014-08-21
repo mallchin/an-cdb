@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="autoconnect" mtime="1375139570" type="list" ltype="string">
+	</entry>
+	<entry name="uris" mtime="1375139415" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>qemu:///system</stringvalue>
+		</li>
+	</entry>
+</gconf>
